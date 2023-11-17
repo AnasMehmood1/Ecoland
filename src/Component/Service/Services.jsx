@@ -18,7 +18,7 @@ const Services = () => {
 
                
             }}>
-               <img src="/images/earth.png" alt="" className="travel" />
+               <img src="/images/earth.png" alt='images' className="travel" />
                
                
             </div>
@@ -35,7 +35,7 @@ const Services = () => {
 
                
             }}>
-               <img src="/images/earth.png" alt="" className="travel" />
+               <img src="/images/earth.png" alt='images'  className="travel" />
                
                
             </div>
@@ -52,7 +52,7 @@ const Services = () => {
 
                
             }}>
-               <img src="/images/earth.png" alt="" className="travel" />
+               <img src="/images/earth.png" alt='images' className="travel" />
                
                
             </div>
@@ -69,7 +69,7 @@ const Services = () => {
 
                
             }}>
-               <img src="/images/earth.png" alt="" className="travel" />
+               <img src="/images/earth.png" alt='images' className="travel" />
                
                
             </div>

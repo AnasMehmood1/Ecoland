@@ -1,12 +1,12 @@
 import React from 'react'
 import "./About.css"
-// import about from "./images/about.jpg"
+
 const About = () => {
   return (
     <div>
       <div className="about-container">
         <div className="left">
-            <img src="/images/about.jpg"  />
+            <img src="/images/about.jpg" alt='alit'  />
         </div>
         <div className="right">
             <div className="right-inner">

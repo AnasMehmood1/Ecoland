@@ -8,7 +8,7 @@ const Destinationapi = [
        image:"./images/destination-2.jpg",
        star:"******",
        sale:"500",
-       regu:'400',
+       less:'400',
        days:"(120)"
     },
         
@@ -18,7 +18,7 @@ const Destinationapi = [
        title:"Gurtnellen, Swetzerland",
        image:"./images/destination-3.jpg",
        star:"******",
-       regu:'400',
+       less:'400',
        days:"(120)"
     },
         
@@ -28,7 +28,7 @@ const Destinationapi = [
        title:"Gurtnellen, Swetzerland",
        image:"./images/destination-4.jpg",
        star:"******",
-       regu:'400',
+       less:'400',
        days:"(120)"
     },
         
@@ -39,7 +39,7 @@ const Destinationapi = [
        image:"./images/destination-5.jpg",
        star:"******",
        days:"(120)",
-       regu:'400'
+       less:'400'
     },
         
         {
@@ -50,7 +50,7 @@ const Destinationapi = [
        star:"******",
        regu:'400',
        days:"(120)",
-       regu:'400',
+       less:'400',
     },
         
         {
@@ -60,7 +60,7 @@ const Destinationapi = [
        image:"./images/destination-2.jpg",
        star:"******",
        days:"(120)",
-       regu:'400',
+       less:'400',
     },
         
     

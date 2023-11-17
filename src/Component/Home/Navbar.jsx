@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-// import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
    const[showMenu,setShowMenu]=useState(false)
@@ -15,15 +15,15 @@ const Navbar = () => {
        
         <div className={showMenu ?"menu active":"menu"}>
             <ul className="menu-list">
-              <a href=""><li>Home</li></a>
+              <a href="#"><li>Home</li></a>
              
-              <a href=""> <li>Services</li></a>
-              <a href=""><li>About</li></a>
-             <a href=""> <li>Destination</li></a>
-             <a href=""> <li>Hotel</li></a>
+              <a href="#"> <li>Services</li></a>
+              <a href="#"><li>About</li></a>
+             <a href="#"> <li>Destination</li></a>
+             <a href="#"> <li>Hotel</li></a>
               <a href=""><li>Restaurant</li></a>
-              <a href=""><li>Blog</li></a>
-           <a href="">   <li>Contact</li></a>
+              <a href="#"><li>Blog</li></a>
+           <a href="#">   <li>Contact</li></a>
             </ul>
         </div>
         <div className="hamburger"onClick={()=> setShowMenu(!showMenu)}>
