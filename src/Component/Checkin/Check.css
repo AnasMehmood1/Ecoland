@@ -48,10 +48,11 @@
 
 .check-btn{
     background-color: #c5a880;
-    padding: 3.4rem 3.5rem;
+    padding: 3.1rem 2rem;
     font-family: 'Old Standard TT', serif;
     text-align: center;
     font-size: 20px;
+    font-family: 'Nunito', sans-serif;
     color: white;
 }
 
@@ -61,6 +62,7 @@
     }
     .check-side{
         width: 100%;
+        
     }
     .check-btn{
        width: 93%;

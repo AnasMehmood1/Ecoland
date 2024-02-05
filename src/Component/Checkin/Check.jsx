@@ -23,7 +23,7 @@ const Check = () => {
             </div>
         </div>
         <div className="check-btn">
-            CHECK <br /> AVALIBILTY
+            CHECK <br /> AVAILABILTY
         </div>
     </div>
     </>
