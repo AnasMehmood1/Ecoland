@@ -7,12 +7,13 @@ const Hero = ({Heropage}) => {
     <div className="home-hero-text">
       <p>ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!</p>
       <h1>Most Relaxing Place</h1>
-      <div>
+      <div className='btn-container'>
         <button className='tour'>TAKE A TOUR ➞</button>
         <button className='learn'>LEARN MORE ➞</button>
       </div>
     </div>
   </div>
+  
     </>
   )
 }

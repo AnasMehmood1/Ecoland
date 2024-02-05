@@ -61,7 +61,7 @@ const Navbar = ({Heropage}) => {
         </li>
       </ul>
       <div className="navbar-toggler" onClick={toggleMobileMenu}>
-        ☰MENU
+        ☰ MENU
       </div>
     </nav>
 

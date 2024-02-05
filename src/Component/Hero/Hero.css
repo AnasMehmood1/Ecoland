@@ -3,4 +3,64 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  padding: 13rem 0px 3rem 0px;
+ 
+}
+
+.home-hero-text p{
+    color: #f8f9fa;
+    font-family: 'Nunito', sans-serif;
+}
+.home-hero-text h1{
+    font-size: 5.5rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+    color: white;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+.tour{
+    padding: .8rem 2rem;
+    color: white;
+    background-color: #c5a880;
+    border: 2px solid #c5a880;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+.learn{
+    padding: .8rem 2rem;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+.learn:hover{
+    background: white;
+    color: black;
+}
+@media (max-width: 850px) {
+    .home-hero{
+      padding: 15rem 0px 3rem 0px;
+     
+    }
+    .home-hero-text h1{
+        font-size: 4.5rem;
+        
+    }
+}
+@media (max-width: 400px) {
+    .btn-container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .home-hero{
+        padding: 12rem 0px 3rem 0px;
+       
+      }
 }
