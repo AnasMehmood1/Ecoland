@@ -1,5 +1,5 @@
 .other{
-    height: 90vh;
+    height: 85vh;
 }
 .other-hero{
     height: 70vh;
@@ -19,6 +19,9 @@
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
+}
+.link{
+    text-decoration: none;
 }
 .title h1{
     color: white;

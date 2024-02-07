@@ -5,7 +5,8 @@ const Contact = () => {
   const aboutstyle = {
     backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_3.jpg)',
     backgroundSize: "cover",
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
+    height:"85vh"
   };
   return (
     <>

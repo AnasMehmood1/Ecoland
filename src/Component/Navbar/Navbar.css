@@ -17,17 +17,25 @@ height: 100vh;
     width: 170px;
     
   }
+  .logo-link{
+    text-decoration: none;
+    
+  }
   .logo p {
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     margin-bottom: -1.5rem;
+    color: white;
+    text-decoration: none;
+
   }
   .logo span{
     font-size: 18px;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
+    color: white;
   }
 .desmenu{
     display: flex;

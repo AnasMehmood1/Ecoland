@@ -12,7 +12,7 @@ const Navbar = ({herocomponent ,style, className = ''}) => {
    <>
    <div className={`bg ${className}`} style={style}>
    <nav className="navbar">
-      <div className="logo"> <p>Unwind </p><br /><span>Hotel Booking</span>
+      <div className="logo"> <Link to='/' className='logo-link'><p>Unwind </p><br /><span>Hotel Booking</span></Link>
 </div>
       <ul className="desmenu">
         <li className="des-nav">
