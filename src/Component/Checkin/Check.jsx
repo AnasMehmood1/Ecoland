@@ -30,4 +30,4 @@ const Check = () => {
   )
 }
 
-export default Check
+export default Check;

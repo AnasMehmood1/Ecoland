@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import Hero from '../Hero/Hero';
-
+import { Link } from 'react-router-dom'
 const Navbar = ({Heropage}) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -20,44 +20,44 @@ const Navbar = ({Heropage}) => {
 </div>
       <ul className="desmenu">
         <li className="des-nav">
-          <a href="#" className="des-link">HOME</a>
+          <Link to="/" className="des-link">HOME</Link>
         </li>
         <li className="des-nav">
-          <a href="#" className="des-link">ABOUT</a>
+          <Link to='/about' className="des-link">ABOUT</Link>
         </li>
         <li className="des-nav">
-          <a href="#" className="des-link">ROOMS</a>
+          <Link to='/room'  className="des-link">ROOMS</Link>
         </li>
         <li className="des-nav">
-          <a href="#" className="des-link">RESTO & BAR</a>
+          <Link to='/resto' className="des-link">RESTO & BAR</Link>
         </li>
         <li className="des-nav">
-          <a href="#" className="des-link">BLOG</a>
+          <Link to='blog' className="des-link">BLOG</ Link>
         </li>
         <li className="des-nav">
-          <a href="#" className="des-link">CONTACT</a>
+          <Link to='/contact' className="des-link">CONTACT</Link>
         </li>
       </ul>
 
       {/* --------mobile----------------- */}
       <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
         <li id='home' className="nav-item">
-          <a href="#"  className="nav-link">HOME</a>
+          <Link to="/" className="nav-link">HOME</Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">ABOUT</a>
+          <Link to='/about' className="nav-link">ABOUT</Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">ROOMS</a>
+          <Link to='/room' className="nav-link">ROOMS</Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">RESTO & BAR</a>
+          <Link to='/resto'  className="nav-link">RESTO & BAR</Link>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">BLOG</a>
+          <Link to='blog' className="nav-link">BLOG</Link>
         </li>
         <li id='contact' className="nav-item">
-          <a href="#" className="nav-link">CONTACT</a>
+          <Link to='/contact' className="nav-link">CONTACT</Link>
         </li>
       </ul>
       <div className="navbar-toggler" onClick={toggleMobileMenu}>
