@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Component/Navbar/Navbar'
 import OtherHero from '../Component/Hero/OtherHero'
 import AboutSec from '../Component/AboutSec/AboutSec';
+import Footer from '../Component/Footer/Footer';
 const About = () => {
   const aboutstyle = {
     backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_3.jpg)',
@@ -16,6 +17,7 @@ const About = () => {
      style={aboutstyle} 
      className='other'/>
      <AboutSec/>
+     <Footer/>
     </>
   )
 }

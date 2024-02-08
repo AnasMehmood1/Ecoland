@@ -49,6 +49,9 @@ const Footer = () => {
             <li><i class="fa-solid fa-paper-plane"></i>	info@yourdomain.com</li>
         </div>
     </div>
+    <div className="sec-ft">
+        <p>Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i>  by <span>Anas Mehmood</span></p>
+    </div>
 
     </>
   )

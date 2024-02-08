@@ -3,10 +3,11 @@
     width: 100%;
     justify-content: center;
     gap: 2rem;
-    padding: 8rem 0px ;
-    background-color: #212529;
+    padding: 7rem 0px ;
+    background-color: #1a1a1a;
     flex-wrap: wrap;
     color: white;
+    margin-top: 1rem;
 }
 .ft-logo{
     color: #f8f9fa;
@@ -88,6 +89,21 @@ li:hover{
 .question li{
     margin-top: .5rem;
     gap: .5rem;
+}
+.sec-ft{
+    padding: 3rem 0px;
+    background-color: #151515;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+.sec-ft span{
+    color: #c5a880;
+}
+.sec-ft i{
+    color: lightgray;
+    padding: 0px .3rem;
 }
 @media(max-width:1190px){
     .footer{
