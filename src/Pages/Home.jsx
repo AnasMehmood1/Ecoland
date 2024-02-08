@@ -3,6 +3,7 @@ import Navbar from "../Component/Navbar/Navbar"
 import Check from '../Component/Checkin/Check'
 import AboutSec from '../Component/AboutSec/AboutSec'
 import Hero from '../Component/Hero/Hero'
+import Footer from '../Component/Footer/Footer'
 const Home = () => {
     const homestyle = {
         backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_1.jpg)',
@@ -17,6 +18,7 @@ const Home = () => {
      
     <Check/>
     <AboutSec/>
+    <Footer/>
     </>
   )
 }

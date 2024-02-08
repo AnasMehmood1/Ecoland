@@ -1,0 +1,102 @@
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    padding: 8rem 0px ;
+    background-color: #212529;
+    flex-wrap: wrap;
+    color: white;
+}
+.ft-logo{
+    color: #f8f9fa;
+    padding-left: 1rem;
+  }
+  .logo-link{
+    text-decoration: none;
+    
+  }
+  .ft-logo .top {
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin-bottom: -1.5rem;
+    color: white;
+    text-decoration: none;
+
+  }
+  .ft-logo .bottom{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+  .ft-des{
+    font-size: 17px;
+    margin: 2rem 0px;
+    font-family: 'Nunito', sans-serif;
+  }
+  .icons{
+    display: flex;
+    gap: 1rem;
+  }
+.icons div{
+    padding: .7rem 1rem;
+    background-color: rgba(255, 255, 255, 0.041);
+    text-align: center;
+}
+.icons i{
+    color: #c5a880;
+}
+.Service,
+.Quicklinks,
+.question{
+    padding-left: 1rem;
+}
+.Service h2,
+.Quicklinks h2,
+.question h2{
+    font-size: 1.4rem;
+    font-family: 'Nunito', sans-serif;
+}
+.row{
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.first li,
+.second li ,
+.Quicklinks li,
+.question li{
+  margin-top: 1rem;
+  list-style: none;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  gap: 1rem;
+}
+li:hover{
+    color: #c5a880;
+}
+.Quicklinks h2,
+.question h2{
+    margin-bottom: 2rem;
+}
+.Quicklinks li,
+.question li{
+    margin-top: .5rem;
+    gap: .5rem;
+}
+@media(max-width:1190px){
+    .footer{
+        gap: 1rem;
+        justify-content: start;
+        /* padding-left: 1rem; */
+    }
+}
+@media(max-width:550px){}
+.footer{
+    gap: 2rem;
+}
