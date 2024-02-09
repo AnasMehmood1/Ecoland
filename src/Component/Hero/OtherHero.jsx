@@ -7,8 +7,8 @@ const OtherHero = ({current ,title}) => {
      <div className="other-hero">
      <div className="inner">
      <div className="links">
-       <Link to='/' className='link'><p>Home &gt;</p></Link>
-       <Link className='link'>  <p>{current} &gt;</p></Link>
+       <Link to='/' className='link'><p>Home <i class="fa-solid fa-angle-right"></i></p></Link>
+       <Link className='link'>  <p>{current} <i class="fa-solid fa-angle-right"></i></p></Link>
        </div>
        <div className="title">
         <h1>{title}</h1>

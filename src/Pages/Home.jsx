@@ -3,6 +3,7 @@ import Navbar from "../Component/Navbar/Navbar"
 import Check from '../Component/Checkin/Check'
 import AboutSec from '../Component/AboutSec/AboutSec'
 import Hero from '../Component/Hero/Hero'
+import ServiceSec from '../Component/ServiceSec/ServiceSec'
 import Footer from '../Component/Footer/Footer'
 const Home = () => {
     const homestyle = {
@@ -15,9 +16,9 @@ const Home = () => {
     <Navbar herocomponent={ <Hero />} 
      style={homestyle} 
      className='bg'/>
-     
     <Check/>
     <AboutSec/>
+    <ServiceSec/>
     <Footer/>
     </>
   )

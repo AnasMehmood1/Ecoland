@@ -11,8 +11,9 @@
 .links{
     display: flex;
     gap: 1rem;
-    color:  white;
+    align-items: center;
     justify-content: center;
+    color:  white;
 }
 .links p{
     color: white;
@@ -22,6 +23,9 @@
 }
 .link{
     text-decoration: none;
+}
+.fa-solid {
+    font-size:1.3rem;
 }
 .title h1{
     color: white;
