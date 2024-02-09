@@ -15,15 +15,15 @@ const Check = () => {
             </div>
             <div className="room">
                 <p>ROOMS</p>
-                <i class="fa fa-calendar-days"></i> <input type="clander" placeholder='Suite' />
+                <i class="fa-solid fa-angle-down"></i> <input type="clander" placeholder='Suite' />
             </div>
             <div className="guest">
                 <p>GUESTS</p>
-                <i class="fa fa-calendar-days"></i> <input type="suite" placeholder='Person' />
+                <i class="fa-solid fa-angle-down"></i> <input type="suite" placeholder='Person' />
             </div>
         </div>
         <div className="check-btn">
-            CHECK <br /> AVAILABILTY
+            CHECK <br /> AVAILABILITY
         </div>
     </div>
     </>

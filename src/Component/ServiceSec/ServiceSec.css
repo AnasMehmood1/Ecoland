@@ -85,7 +85,7 @@ width: 100%;
 .service-image::before{
     content: '';
     background-color: #222222e7;
-    /* z-index: -1; */
+   
     position: absolute;
     inset: 0;
 }
