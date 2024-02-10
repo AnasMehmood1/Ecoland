@@ -27,11 +27,13 @@ const ServiceSec = () => {
             <p>Swimming <br /> Pool</p>
             </div>
             <div className="card">
-            <img src="./images/cosmetics.png" width={"70px"} />
+            <img src="./images/cosmetics 1.png" className='active' alt='' width={"70px"} />
+            <img src="./images/cosmetics.png" className='hover' alt='' width={"70px"} />
             <p>Beauty & <br />Health</p>
             </div>
             <div className="card">
-            <img src="./images/daycare.png" width={"70px"} />
+            <img src="./images/daycare1.png" className='active' width={"70px"} alt='' />
+            <img src="./images/daycare.png" className='hover' alt='' width={"70px"} />
             <p>Help & Support</p>
             </div>
          </div>

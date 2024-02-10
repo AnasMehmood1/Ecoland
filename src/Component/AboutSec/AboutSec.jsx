@@ -7,7 +7,7 @@ const AboutSec = () => {
         <div className="about-left">
         <div className="about-left-left">
           <div className="left-detail">
-           <ion-icon name="bed-outline"></ion-icon>
+       <img src="./images/pillow.png" width={"70px"} alt="" />
              <h2>Cozy Room</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
           </div>
@@ -22,7 +22,7 @@ const AboutSec = () => {
  
 </div>
           <div className="left-detail">
-          <ion-icon name="bed-outline"></ion-icon>
+          <img src="./images/pillow.png" width={"70px"} alt="" />
           <h2>Cozy Room</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
           </div>
