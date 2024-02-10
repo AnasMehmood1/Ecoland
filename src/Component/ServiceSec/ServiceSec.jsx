@@ -41,6 +41,7 @@ const ServiceSec = () => {
           
           <div className="service-image" style={{  backgroundImage: ' url(./images/bg_1.jpg)',
         backgroundSize: "cover",
+        width:"100%",
         backgroundPosition: 'center'}}>
        <div className="image-text">
         <span>FIND BEST HOTEL FOR LEAVING</span>

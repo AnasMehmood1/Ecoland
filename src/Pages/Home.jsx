@@ -5,6 +5,7 @@ import AboutSec from '../Component/AboutSec/AboutSec'
 import Hero from '../Component/Hero/Hero'
 import ServiceSec from '../Component/ServiceSec/ServiceSec'
 import Footer from '../Component/Footer/Footer'
+import RoomSec from '../Component/Room/RoomSec'
 const Home = () => {
     const homestyle = {
         backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_1.jpg)',
@@ -19,6 +20,7 @@ const Home = () => {
     <Check/>
     <AboutSec/>
     <ServiceSec/>
+    <RoomSec/>
     <Footer/>
     </>
   )
