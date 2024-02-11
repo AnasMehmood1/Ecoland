@@ -1,11 +1,15 @@
 .room-main-container{
     width: 100%;
-
+    padding: 5rem 0px;
 }
 .room-title-text{
     text-align: center;
     width: 100%;
 }
+.room-card-container{
+    padding-top: 1rem;
+}
+
 .room-title-text span{
     color: #c5a880;
     font-family: 'Nunito', sans-serif;
@@ -116,9 +120,12 @@
     
 }
 @media (max-width:750px){
+    .room-card-container{
+        padding: 0px .6rem;
+    }
     .room-cards{
         flex-direction: column;
-        padding: 0px .6rem;
+    
     }
     .room-card{
         width: 100%;

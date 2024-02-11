@@ -6,6 +6,7 @@ import Hero from '../Component/Hero/Hero'
 import ServiceSec from '../Component/ServiceSec/ServiceSec'
 import Footer from '../Component/Footer/Footer'
 import RoomSec from '../Component/Room/RoomSec'
+import Tour from '../Component/Room/Tour'
 const Home = () => {
     const homestyle = {
         backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_1.jpg)',
@@ -21,6 +22,7 @@ const Home = () => {
     <AboutSec/>
     <ServiceSec/>
     <RoomSec/>
+    <Tour/>
     <Footer/>
     </>
   )
