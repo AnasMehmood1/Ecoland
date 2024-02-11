@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Resto.css"
+import Restoapi from './Restoapi'
 const Resto = () => {
   return (
     <>
@@ -13,16 +14,13 @@ const Resto = () => {
                 </div>
                 <div className="resto-right">
                     <div className="resto-cards">
-                        <div className="resto-card">
-                            <img src="./images/menu-1.jpg" alt=""  />
-                            <p>Grilled Beef with potatoes</p>
-                            <span>$20.00</span>
-                        </div>
-                        <div className="resto-card">
-                            <img src="./images/menu-1.jpg" alt="" />
-                            <p>Grilled Beef with potatoes</p>
-                            <span>$20.00</span>
-                        </div>
+                    {Restoapi.map((item) => ( 
+                            <div key={item.id} className="resto-card">
+                                <img src={item.image} alt='' />
+                                <p>{item.text}</p>
+                                <span>{item.price}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>

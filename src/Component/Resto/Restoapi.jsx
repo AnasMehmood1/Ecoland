@@ -1,10 +1,5 @@
 const Restoapi = [ 
-    {  
-       id: 1,
-      image:"./images/menu-1.jpg",
-      text:"Grilled Beef with potatoes",
-      price:"$20.00"
-    },
+
     
     {  
        id: 1,

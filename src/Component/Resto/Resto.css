@@ -27,7 +27,7 @@
 }
 .resto-left{
    width: 40%;
-   height: 78vh;
+   height: 85vh;
    position: relative;
 }
 .resto-left::before{
@@ -56,22 +56,28 @@
 }
 .resto-right{
     width: 45%;
+    
 }
-.resto-cards{
+.resto-cards {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Align items at the start of the container */
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; /* Allow items to wrap */
     gap: .5rem;
 }
-.resto-card{
-    display: flex;
+
+.resto-card {
+    box-sizing: border-box;  
+     flex: 1 1 calc(50% - .5rem); 
+     display: flex;
     justify-content: center;
     gap: 1rem;
     box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
     background-color: white;
-    padding: 2.5rem 2.5rem;
+    padding: 2.5rem  2rem;
+    max-width: calc(50% - .5rem); 
 }
+
 .resto-card:hover{
     background-color: black;
     color: white;
@@ -94,7 +100,6 @@
 @media (max-width:1150px){
     .resto-sides{
         flex-direction: column;
-        border: 2px solid red;
         align-items: center;
     }
     .resto-left{
@@ -104,8 +109,31 @@
         height: 100px;
         width: 100px;
         position: absolute;
-        bottom: 0;
-        right: 50%;
-        left: 50%;
+        bottom: -10%;
+        right: 40%;
     }
+    .resto-right{
+        width: 100%;
+    }
+    .resto-cards {
+        display: flex;
+        justify-content: space-between; /* Use space-between to evenly distribute the cards */
+        flex-wrap: wrap;
+        gap: 1rem; /* Maintain a gap for spacing */
+        padding: 0px 1rem;
+    }
+    
+    .resto-card {
+        box-sizing: border-box;
+        flex: 1 1 calc(50% - 1rem); /* Adjust flex basis for two cards per row, accounting for the gap */
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+        background-color: white;
+        padding: 2.5rem; /* Adjust padding as needed */
+        max-width: calc(50% - 1rem); /* Ensure cards do not exceed half the container width minus the gap */
+    }
+    
+    
 }
