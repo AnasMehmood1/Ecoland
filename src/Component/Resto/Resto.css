@@ -1,0 +1,111 @@
+.resto-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0px 3rem 0px;
+    justify-content: center;
+}
+.resto-title span{
+    color: #c5a880;
+    font-family: 'Nunito', sans-serif;
+}
+.resto-title h2{
+    font-size: 2.7rem;
+    color: black;
+    font-family: 'Old Standard TT', serif;
+}
+.resto-main-container,
+.resto-container{
+    width: 100%;
+    /* padding: 10rem 0px; */
+}
+.resto-sides{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.resto-left{
+   width: 40%;
+   height: 78vh;
+   position: relative;
+}
+.resto-left::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.349);
+    opacity: .9;
+}
+.cooking{
+    width: 12%;
+    background-color: #c5a880;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    right: -9%;
+    top: 42%;
+}
+.cooking img{
+    width: 50px;
+}
+.resto-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resto-right{
+    width: 45%;
+}
+.resto-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: .5rem;
+}
+.resto-card{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    padding: 2.5rem 2.5rem;
+}
+.resto-card:hover{
+    background-color: black;
+    color: white;
+    transition: 0s ease-in;
+}
+.resto-card p{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+.resto-card span{
+    color: #c5a880;
+    font-family: 'Nunito', sans-serif;
+}
+.resto-card img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+@media (max-width:1150px){
+    .resto-sides{
+        flex-direction: column;
+        border: 2px solid red;
+        align-items: center;
+    }
+    .resto-left{
+        width: 100%;
+    }
+    .cooking{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        left: 50%;
+    }
+}
