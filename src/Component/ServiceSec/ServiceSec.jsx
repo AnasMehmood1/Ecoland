@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ServiceSec.css"
+import ServiceImage from './ServiceImage'
 const ServiceSec = () => {
   return (
     <>
@@ -39,18 +40,7 @@ const ServiceSec = () => {
          </div>
         </div>
           
-          <div className="service-image" style={{  backgroundImage: ' url(./images/bg_1.jpg)',
-        backgroundSize: "cover",
-      
-        backgroundPosition: 'center'}}>
-       <div className="image-text">
-        <span>FIND BEST HOTEL FOR LEAVING</span>
-        <p>Find the Best Hotel in Your Next <br /> Vacation</p>
-       </div>
-       <div className="btn">
-        <button>Book Now</button>
-       </div>
-          </div>
+          <ServiceImage/>
 
       </div>
     </>

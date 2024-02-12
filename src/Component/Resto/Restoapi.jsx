@@ -47,6 +47,12 @@ const Restoapi = [
       text:"Grilled Beef with potatoes",
       price:"$20.00"
     },
+    {  
+       id: 8,
+      image:"./images/menu-8.jpg",
+      text:"Grilled Beef with potatoes",
+      price:"$20.00"
+    },
     
     ]
 

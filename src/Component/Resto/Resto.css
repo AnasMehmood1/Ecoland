@@ -13,12 +13,13 @@
 .resto-title h2{
     font-size: 2.7rem;
     color: black;
+    font-weight: normal;
     font-family: 'Old Standard TT', serif;
 }
 .resto-main-container,
 .resto-container{
     width: 100%;
- 
+    margin: 5rem 0px;
 }
 .resto-sides{
     width: 100%;

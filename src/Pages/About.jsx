@@ -3,6 +3,8 @@ import Navbar from '../Component/Navbar/Navbar'
 import OtherHero from '../Component/Hero/OtherHero'
 import AboutSec from '../Component/AboutSec/AboutSec';
 import Footer from '../Component/Footer/Footer';
+import ImageSec from '../Component/Footer/ImageSec';
+import ServiceImage from '../Component/ServiceSec/ServiceImage';
 const About = () => {
   const aboutstyle = {
     backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_3.jpg)',
@@ -17,6 +19,8 @@ const About = () => {
      style={aboutstyle} 
      className='other'/>
      <AboutSec/>
+     <ServiceImage/>
+     <ImageSec/>
      <Footer/>
     </>
   )
