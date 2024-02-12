@@ -8,6 +8,7 @@ import Footer from '../Component/Footer/Footer'
 import RoomSec from '../Component/Room/RoomSec'
 import Tour from '../Component/Room/Tour'
 import RestoTilte from '../Component/Resto/RestoTilte'
+import BlogTitle from '../Component/Blog/BlogTitle'
 const Home = () => {
     const homestyle = {
         backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_1.jpg)',
@@ -25,6 +26,7 @@ const Home = () => {
     <RoomSec/>
     <Tour/>
     <RestoTilte/>
+    <BlogTitle/>
     <Footer/>
     </>
   )

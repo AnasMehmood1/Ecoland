@@ -1,0 +1,21 @@
+.blog-main-container{
+    width: 100%;
+    padding: 5rem 0px;
+    margin-top: 4rem;
+}
+.blog-text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-text-area span{
+    color: #c5a880;
+    font-family: 'Nunito', sans-serif;
+}
+.blog-text-area h3{
+    font-size: 3.8rem;
+    font-weight: lighter;
+    color: black;
+    font-family: 'Old Standard TT', serif;
+}

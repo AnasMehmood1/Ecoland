@@ -1,6 +1,6 @@
 .room-main-container{
     width: 100%;
-    padding: 5rem 0px;
+    padding: 2rem 0px;
 }
 .room-title-text{
     text-align: center;
@@ -8,6 +8,7 @@
 }
 .room-card-container{
     padding-top: 1rem;
+    margin-top: 5rem;
 }
 
 .room-title-text span{

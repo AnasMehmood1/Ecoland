@@ -79,7 +79,7 @@
 }
 
 .resto-card:hover{
-    background-color: black;
+    background-color: rgb(207, 205, 205);
     color: white;
     transition: 0s ease-in;
 }
