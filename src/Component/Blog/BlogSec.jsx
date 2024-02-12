@@ -16,7 +16,7 @@ const BlogSec = ({numshow}) => {
                      <p>{blog.Date}</p>
                      <span>3</span>
                  </div>
-                 <p className='comment'>{blog.comment}</p>
+                <div> <p className='comment'>{blog.comment}</p></div>
                  <div className="title">
                      <h4>{blog.title}</h4>
                      <p>{blog.description}</p>
