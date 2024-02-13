@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ServiceSec.css"
-import ServiceImage from './ServiceImage'
+// import ServiceImage from './ServiceImage'
 const ServiceSec = () => {
   return (
     <>
@@ -40,7 +40,7 @@ const ServiceSec = () => {
          </div>
         </div>
           
-          <ServiceImage/>
+          {/* <ServiceImage/> */}
 
       </div>
     </>

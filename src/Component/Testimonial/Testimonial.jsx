@@ -1,11 +1,9 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import "./Testimonial.css"
-// import required modules
+
 import { Pagination } from 'swiper/modules';
 import Testimonialtitle from './Testimonialtitle';
 
@@ -29,25 +27,25 @@ const Testimonial = () => {
                 spaceBetween: 10
               },
               
-              // Small devices (larger phones, small tablets)
+            
               480: {
                 slidesPerView: 1,
                 spaceBetween: 20
               },
             
-              // Medium devices (tablets)
+       
               768: {
                 slidesPerView: 2,
                 spaceBetween: 20
               },
             
-              // Large devices (desktops)
+             
               1024: {
                 slidesPerView: 3,
                 spaceBetween: 30
               },
             
-              // Extra large devices (large desktops)
+    
               1440: {
                 slidesPerView: 3,
                 spaceBetween: 30

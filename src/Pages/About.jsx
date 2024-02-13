@@ -4,7 +4,9 @@ import OtherHero from '../Component/Hero/OtherHero'
 import AboutSec from '../Component/AboutSec/AboutSec';
 import Footer from '../Component/Footer/Footer';
 import ImageSec from '../Component/Footer/ImageSec';
+import Tour from "../Component/Room/Tour"
 import ServiceImage from '../Component/ServiceSec/ServiceImage';
+import Testimonial from '../Component/Testimonial/Testimonial';
 const About = () => {
   const aboutstyle = {
     backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_3.jpg)',
@@ -20,6 +22,8 @@ const About = () => {
      className='other'/>
      <AboutSec/>
      <ServiceImage/>
+     <Tour/>
+     <Testimonial/>
      <ImageSec/>
      <Footer/>
     </>

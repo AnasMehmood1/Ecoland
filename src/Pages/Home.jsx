@@ -4,6 +4,7 @@ import Check from '../Component/Checkin/Check'
 import AboutSec from '../Component/AboutSec/AboutSec'
 import Hero from '../Component/Hero/Hero'
 import ServiceSec from '../Component/ServiceSec/ServiceSec'
+import ServiceImage from "../Component/ServiceSec/ServiceImage"
 import Footer from '../Component/Footer/Footer'
 import RoomSec from '../Component/Room/RoomSec'
 import Tour from '../Component/Room/Tour'
@@ -26,6 +27,7 @@ const Home = () => {
     <Check/>
     <AboutSec/>
     <ServiceSec/>
+    <ServiceImage/>
     <RoomSec/>
     <Tour/>
     <RestoTilte/>
