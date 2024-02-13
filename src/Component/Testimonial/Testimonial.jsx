@@ -16,9 +16,10 @@ const Testimonial = () => {
      <div className="swiper-container">
      <Swiper
         slidesPerView={3}
-        spaceBetween={30}
+        spaceBetween={10}
         pagination={{
           clickable: true,
+          
         }}
         modules={[Pagination]}
         className="mySwiper"
@@ -73,7 +74,7 @@ const Testimonial = () => {
         <SwiperSlide>
             <div className="slide-detail">
                 <div className="profile">
-                    <img src="./images/person_2.jpg" alt="" />
+                    <img src="./images/women-1.jpg" alt="" />
                     <i class="fa-solid fa-quote-left"></i>
 
                 </div>
@@ -89,7 +90,7 @@ const Testimonial = () => {
         <SwiperSlide>
             <div className="slide-detail">
                 <div className="profile">
-                    <img src="./images/person_3.jpg" alt="" />
+                    <img src="./images/person_2.jpg" alt="" />
                     <i class="fa-solid fa-quote-left"></i>
 
                 </div>
@@ -121,7 +122,7 @@ const Testimonial = () => {
         <SwiperSlide>
             <div className="slide-detail">
                 <div className="profile">
-                    <img src="./images/person_2.jpg" alt="" />
+                    <img src="./images/women-2.jpg" alt="" />
                     <i class="fa-solid fa-quote-left"></i>
 
                 </div>
