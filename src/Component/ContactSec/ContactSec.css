@@ -34,7 +34,7 @@
 
 .contact-information {
     display: flex;
-    gap:1rem;
+    gap:.5rem;
     padding: 2rem 0px;
     font-family: 'Nunito', sans-serif;
     width: 100%;
