@@ -71,7 +71,7 @@
   }
   .person-detail p{
     font-size: 1.7rem;
-    font-weight: bold;
+    font-weight: 500;
     font-family: 'Nunito', sans-serif;
   }
   .person-detail span{
