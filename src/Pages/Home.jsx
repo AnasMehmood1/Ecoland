@@ -17,6 +17,7 @@ const Home = () => {
     const homestyle = {
         backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bg_1.jpg)',
         backgroundSize: "cover",
+        backgroundAttachment:"fixed",
         backgroundPosition: 'center'
       };
   return (
