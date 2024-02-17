@@ -1,7 +1,7 @@
 
 
 ## Preview
-![Your Unwind Screenshot](./images/preview.png)
+![Your Unwind Screenshot](./public/preview.png)
 ## Unwind - Hotel Booking Website
 Welcome to Unwind - Your Ultimate Destination for Luxurious and Comfortable Accommodations!
 
