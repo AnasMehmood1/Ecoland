@@ -6,7 +6,7 @@
 Welcome to Unwind - Your Ultimate Destination for Luxurious and Comfortable Accommodations!
 
 ## Description
-Serenity Stay Hotel Booking Website project is crafted to offer guests an insightful glimpse into the luxurious rooms, amenities, and services provided by our hotel. Whether you're a travel enthusiast or planning your next staycation, our website ensures a seamless booking experience.
+Unwind Hotel Booking Website project is crafted to offer guests an insightful glimpse into the luxurious rooms, amenities, and services provided by our hotel. Whether you're a travel enthusiast or planning your next staycation, our website ensures a seamless booking experience.
 
  ## Room Categories
 Standard Rooms: Comfortable and cozy rooms for budget-friendly stays.
